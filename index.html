@@ -13,10 +13,13 @@
 
 <body dir="rtl">
   
+    <a href="https://www.SmarterASP.NET/index?r=orabi2012">
+        <img src="https://www.SmarterASP.NET/affiliate/728X90.gif">
+        </a>
 
 
     <div class="topnav">
-        <a class="active" href="/notes.html">الرئيسية</a>
+        <a id = 'Home' class="active" href="/notes.html">الرئيسية</a>
         <a href="#aboutUs">من نحن</a>
         <a href="#About">عن الدورة</a>
         <a href="#contactUs">تواصل معنا</a>
@@ -30,6 +33,16 @@
 <div class = "container">
       <div class="btn"> visit us </div>
     </div>
+
+
+    <script>
+let text = document.querySelector('#Home');
+console.log(text)
+
+text.innerText = 'orabi'
+text.style.color = "red"
+
+    </script>
 </body>
 
 </html>
